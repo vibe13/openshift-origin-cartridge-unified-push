@@ -11,22 +11,22 @@ You first need to create an OpenShift account before being able to create applic
 You have different options to create your application.
 
 #### Approach 1: use the OpenShift create application page
-Go to the [OpenShift create application page](https://openshift.redhat.com/app/console/application_types) and enter the cartridge URI of https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-aerogear-push/master/metadata/manifest.yml in the entry field (at the bottom left of the form), then configure the application in the following pages (you need to specify at least the `Public URL`. If you have a subscription for Openshift that gives you access to other gear sizes, you can specify them in the `Gears` field). 
+Go to the [OpenShift create application page](https://openshift.redhat.com/app/console/application_types) and enter the cartridge URI of https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-unified-push/master/metadata/manifest.yml in the entry field (at the bottom left of the form), then configure the application in the following pages (you need to specify at least the `Public URL`. If you have a subscription for Openshift that gives you access to other gear sizes, you can specify them in the `Gears` field). 
 
 #### Approach 2: use the rhc command line
 If you want to use the rhc command line type:
 ```shell
-rhc app create --no-git <APP_NAME> https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-aerogear-push/master/metadata/manifest.yml
+rhc app create --no-git <APP_NAME> https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-unified-push/master/metadata/manifest.yml
 ```
 
 If you have a subscription for Openshift that gives you access to other gear sizes, you can specify them running i.e. :
 ```shell
-rhc app create -g medium --no-git <APP_NAME> https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-aerogear-push/master/metadata/manifest.yml
+rhc app create -g medium --no-git <APP_NAME> https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-unified-push/master/metadata/manifest.yml
 ```
 
 When the installation completes, you will be presented with a list of generated users and passwords similar to the screencap below.  Make sure you save them!
 
-![cartridge_creation](https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-aerogear-push/master/cartridge-creation.png)
+![cartridge_creation](https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-unified-push/master/cartridge-creation.png)
 
 The `JBoss Unified Push Server` cartridge defaults to using MySQL.
 
