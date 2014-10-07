@@ -29,7 +29,7 @@ touch ${OPENSHIFT_JBOSS_UNIFIED_PUSH_DIR}/env/OPENSHIFT_JBOSS_UNIFIED_PUSH_CLUST
 update-configuration java7
 
 client_result ""
-client_result "JBoss Mobile Add-On UnifiedPush Server added.  Please make note of these default credentials:"
+client_result "JBoss Unified Push Server added.  Please make note of these default credentials:"
 client_result ""
 client_result "           User: admin"
 client_result "       Password: 123"
