@@ -1,11 +1,11 @@
 # Red Hat JBoss Unified Push Server Cartridge for OpenShift
 
-This cartridge provides the `JBoss Unified Push Server` for easy deployment to OpenShift, running on top of JBoss EAP. 
+This cartridge provides the `Red Hat JBoss Unified Push Server` for easy deployment to OpenShift, running on top of JBoss EAP. 
 
-The `JBoss Unified Push Server` is a server that allows sending push notifications to different (mobile) platforms. The initial version of the server supports [Apple’s APNs](http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW9) and [Google Cloud Messaging](http://developer.android.com/google/gcm/index.html).
+The `Red Hat JBoss Unified Push Server` is a server that allows sending push notifications to different (mobile) platforms. The initial version of the server supports [Apple’s APNs](http://developer.apple.com/library/mac/#documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW9) and [Google Cloud Messaging](http://developer.android.com/google/gcm/index.html).
 
 ### Creation of OpenShift account
-You first need to create an OpenShift account before being able to create applications with the `JBoss Unified Push Server` cartridge. For information on how to create and setup your OpenShift account, please refer to [Getting Started with OpenShift Online](https://developers.openshift.com/en/getting-started-overview.html).
+You first need to create an OpenShift account before being able to create applications with the `Red Hat JBoss Unified Push Server` cartridge. For information on how to create and setup your OpenShift account, please refer to [Getting Started with OpenShift Online](https://developers.openshift.com/en/getting-started-overview.html).
 
 ### Installation
 You have different options to create your application.
@@ -26,9 +26,9 @@ rhc app create -g medium --no-git <APP_NAME> https://raw.githubusercontent.com/v
 
 When the installation completes, you will be presented with a list of generated users and passwords similar to the screencap below.  Make sure you save them!
 
-![cartridge_creation](https://raw.githubusercontent.com/vibe13/openshift-origin-cartridge-unified-push/master/cartridge-creation.png)
+![cartridge_creation](./cartridge-creation.png)
 
-The `JBoss Unified Push Server` cartridge defaults to using MySQL.
+The `Red Hat JBoss Unified Push Server` cartridge defaults to using MySQL.
 
 ### Getting started with the JBoss Unified Push Server
 
